@@ -20,3 +20,7 @@
 2026-07-26 13:13:12 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=3.72s
 2026-07-26 13:13:12 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\data\raw\commodity_20260726_131312.csv | rows=33
 2026-07-26 13:13:12 | INFO     | __main__ | Raw SQL Insert Success | table=scrap_raw | rows=33
+2026-07-26 14:41:08 | INFO     | src.scraper.base_scraper | Scraping Started | source=commodity | url=https://id.investing.com/commodities/real-time-futures | attempt=1
+2026-07-26 14:41:19 | INFO     | src.scraper.base_scraper | Scraping Success | source=commodity | rows=33 | elapsed=11.33s
+2026-07-26 14:41:19 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\smart-purchasing-supply-chain-intelligence\data\raw\commodity_20260726_144119.csv | rows=33
+2026-07-26 14:41:20 | INFO     | __main__ | Raw SQL Insert Success | table=scrap_raw | rows=33
