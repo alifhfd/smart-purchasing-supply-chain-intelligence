@@ -1,0 +1,22 @@
+2026-07-26 13:06:24 | INFO     | __main__ | Scraping Started | url=https://id.investing.com/commodities/real-time-futures
+2026-07-26 13:06:40 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=15.23s
+2026-07-26 13:06:40 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\data\raw\commodity_20260726_130640.csv | rows=33
+2026-07-26 13:06:55 | ERROR    | __main__ | Raw SQL Insert Failed | table=scrap_raw | error=(pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF].  (-1) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (-1)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-26 13:06:55 | WARNING  | __main__ | Raw data hanya tersimpan di CSV, gagal tersimpan ke SQL Server.
+2026-07-26 13:08:24 | INFO     | __main__ | Scraping Started | url=https://id.investing.com/commodities/real-time-futures
+2026-07-26 13:08:28 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=3.59s
+2026-07-26 13:08:28 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\data\raw\commodity_20260726_130828.csv | rows=33
+2026-07-26 13:08:43 | ERROR    | __main__ | Raw SQL Insert Failed | table=scrap_raw | error=(pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF].  (-1) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to localhost\\SQLEXPRESS. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (-1)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-26 13:08:43 | WARNING  | __main__ | Raw data hanya tersimpan di CSV, gagal tersimpan ke SQL Server.
+2026-07-26 13:10:05 | INFO     | __main__ | Scraping Started | url=https://id.investing.com/commodities/real-time-futures
+2026-07-26 13:10:09 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=3.72s
+2026-07-26 13:10:09 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\data\raw\commodity_20260726_131009.csv | rows=33
+2026-07-26 13:10:24 | ERROR    | __main__ | Raw SQL Insert Failed | table=scrap_raw | error=(pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF].  (-1) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to localhost\\SQLEXPRESS. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (-1)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-26 13:10:24 | WARNING  | __main__ | Raw data hanya tersimpan di CSV, gagal tersimpan ke SQL Server.
+2026-07-26 13:13:08 | INFO     | __main__ | Scraping Started | url=https://id.investing.com/commodities/real-time-futures
+2026-07-26 13:13:12 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=3.72s
+2026-07-26 13:13:12 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\data\raw\commodity_20260726_131312.csv | rows=33
+2026-07-26 13:13:12 | INFO     | __main__ | Raw SQL Insert Success | table=scrap_raw | rows=33

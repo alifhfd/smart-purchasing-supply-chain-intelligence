@@ -1,0 +1,12 @@
+2026-07-26 12:57:00 | INFO     | __main__ | Scraping Started | url=https://id.investing.com/commodities/real-time-futures
+2026-07-26 12:57:10 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=9.85s
+2026-07-26 12:57:10 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\project\data\raw\commodity_20260726_125710.csv | rows=33
+2026-07-26 12:57:10 | ERROR    | __main__ | Raw SQL Insert Failed | table=scrap_raw | error=(pyodbc.InterfaceError) ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'alifhfd\\haali\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "SupplyChainDW" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'alifhfd\\haali\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "SupplyChainDW" requested by the login. The login failed. (4060)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-07-26 12:57:10 | WARNING  | __main__ | Raw data hanya tersimpan di CSV, gagal tersimpan ke SQL Server.
+2026-07-26 12:58:15 | INFO     | __main__ | Scraping Started | url=https://id.investing.com/commodities/real-time-futures
+2026-07-26 12:58:19 | INFO     | __main__ | Scraping Success | rows=33 | elapsed=3.42s
+2026-07-26 12:58:19 | INFO     | __main__ | Raw CSV Saved | path=C:\Users\haali\data_project\project\Project Otomatisasi Harga Komoditas\project\data\raw\commodity_20260726_125819.csv | rows=33
+2026-07-26 12:58:19 | ERROR    | __main__ | Raw SQL Insert Failed | table=scrap_raw | error=(pyodbc.InterfaceError) ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'alifhfd\\haali\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "SupplyChainDW" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'alifhfd\\haali\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "SupplyChainDW" requested by the login. The login failed. (4060)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-07-26 12:58:19 | WARNING  | __main__ | Raw data hanya tersimpan di CSV, gagal tersimpan ke SQL Server.
