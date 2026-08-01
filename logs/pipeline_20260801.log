@@ -1,0 +1,17 @@
+2026-08-01 23:03:19 | INFO     | __main__ | Pipeline Started | domain=commodity
+2026-08-01 23:03:19 | INFO     | src.scraper.base_scraper | Scraping Started | source=commodity | url=https://id.investing.com/commodities/real-time-futures | attempt=1
+2026-08-01 23:03:31 | INFO     | src.scraper.base_scraper | Scraping Success | source=commodity | rows=33 | elapsed=11.80s
+2026-08-01 23:03:31 | INFO     | src.etl.extract | Raw CSV Saved | path=C:\Users\haali\data_project\project\smart-purchasing-supply-chain-intelligence\data\raw\commodity_20260801_230331.csv | rows=33
+2026-08-01 23:03:31 | INFO     | src.etl.extract | Raw SQL Insert Success | table=scrap_raw | rows=33
+2026-08-01 23:03:31 | INFO     | src.etl.transform | Cleaning Started | rows_in=33
+2026-08-01 23:03:31 | INFO     | src.etl.transform | Rename kolom selesai | kolom=['commodity_name', 'contract_month', 'last_price', 'high_price', 'low_price', 'change_value', 'change_percent', 'scraped_at', 'source_url']
+2026-08-01 23:03:31 | INFO     | src.etl.transform | Missing value ditemukan:
+contract_month    6
+2026-08-01 23:03:31 | INFO     | src.etl.transform | Cleaning Success | rows_out=33
+2026-08-01 23:03:31 | INFO     | src.etl.transform | Processed CSV Saved | path=C:\Users\haali\data_project\project\smart-purchasing-supply-chain-intelligence\data\processed\commodity_20260801_230331.csv | rows=33
+2026-08-01 23:03:31 | INFO     | src.etl.validate | Validation Started | rows_in=33
+2026-08-01 23:03:31 | INFO     | src.etl.validate | Validation Success | valid=32 | invalid=1 | reasons={'duplicate_check_failed': 1}
+2026-08-01 23:03:31 | WARNING  | src.etl.validate | Invalid rows disimpan | path=C:\Users\haali\data_project\project\smart-purchasing-supply-chain-intelligence\logs\error\commodity_errors_20260801_230331.csv | rows=1
+2026-08-01 23:03:32 | INFO     | src.etl.load | Staging table di-TRUNCATE | table=stg_commodity_price
+2026-08-01 23:03:32 | INFO     | src.etl.load | Insert Success | table=stg_commodity_price | rows=32 | chunksize=500
+2026-08-01 23:03:32 | INFO     | __main__ | Pipeline Success | domain=commodity | Elapsed Time=12.24s

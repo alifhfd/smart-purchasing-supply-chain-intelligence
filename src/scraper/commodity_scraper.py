@@ -76,9 +76,21 @@ class CommodityScraper(BaseScraper):
                 # baris tidak lengkap (misal header tersembunyi) -> skip
                 continue
 
+            # Ambil href dari link nama komoditas. Ini PENTING karena
+            # instrumen berbeda (misal Tembaga Comex vs Tembaga LME) bisa
+            # punya `commodity_name` yang identik tapi detail_url berbeda
+            # -> dipakai sebagai identifier unik instrumen di validate.py.
+            name_link = cells.nth(1).locator("a").first
+            detail_url = (
+                name_link.get_attribute("href")
+                if name_link.count() > 0
+                else None
+            )
+
             raw_rows.append(
                 {
                     "nama": cells.nth(1).inner_text(),
+                    "detail_url": detail_url,
                     "bulan": cells.nth(2).inner_text(),
                     "terakhir": cells.nth(3).inner_text(),
                     "tertinggi": cells.nth(4).inner_text(),
